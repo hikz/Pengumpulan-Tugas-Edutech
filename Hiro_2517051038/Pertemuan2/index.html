@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio — Hiroba</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">Hiroba.</div>
+    <ul class="nav-links">
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#riwayat">Riwayat</a></li>
+      <li><a href="#keahlian">Keahlian</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="tentang" class="hero">
+    <!-- Ganti src dengan URL foto Anda; hapus elemen ini jika tidak ingin menampilkan foto -->
+    <div class="hero-photo" aria-hidden="true">🧑‍💻</div>
+
+    <div class="hero-text">
+      <p class="hero-greeting">Halo, saya </p>
+      <h1 class="hero-name">Hiroba <span>Ikhtiyar</span></h1>
+      <p class="hero-role">AI Enthusiast &amp; Java Wizard </p>
+      <p class="hero-desc">
+        Saya adalah seorang pengembang yang antusias mendalami kecerdasan buatan dan pengembangan berbasis Java. Saya senang menciptakan solusi yang efisien, skalabel, dan berdampak nyata dengan menggabungkan kekuatan teknologi AI dan rekayasa perangkat lunak yang solid.
+      </p>
+      <a href="#kontak" class="hero-cta">
+        Hubungi Saya
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- RIWAYAT -->
+  <section id="riwayat">
+    <p class="section-label">Latar Belakang</p>
+    <h2 class="section-title">Pendidikan &amp; Pengalaman</h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="tl-left">
+          <div class="tl-dot"></div>
+          <div class="tl-line"></div>
+        </div>
+        <div class="tl-card">
+          <p class="tl-year">2025— Sekarang</p>
+          <p class="tl-title">Universitas Lampung</p>
+          <p class="tl-place">S1 Ilmu Komputer - FMIPA</p>
+          <p class="tl-desc"></p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="tl-left">
+          <div class="tl-dot"></div>
+          <div class="tl-line"></div>
+        </div>
+        <div class="tl-card">
+          <p class="tl-year">2022 — 2025</p>
+          <p class="tl-title">SMAN 2 Bandar Lampung</p>
+          <p class="tl-place"></p>
+          <p class="tl-desc"></p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="tl-left">
+          <div class="tl-dot"></div>
+          <div class="tl-line"></div>
+        </div>
+        <div class="tl-card">
+          <p class="tl-year">2019 — 2022</p>
+          <p class="tl-title">SMPN 25 Bandar Lampung</p>
+          <p class="tl-place"></p>
+          <p class="tl-desc"></p>
+        </div>
+      </div>
+
+      
+      <div class="timeline-item">
+        <div class="tl-left">
+          <div class="tl-dot"></div>
+          <div class="tl-line"></div>
+        </div>
+        <div class="tl-card">
+          <p class="tl-year">2013 — 2019</p>
+          <p class="tl-title">SDN 1 Palapa</p>
+          <p class="tl-place"></p>
+          <p class="tl-desc"></p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- KEAHLIAN -->
+   
+  <section id="keahlian">
+    <p class="section-label">Kompetensi</p>
+    <h2 class="section-title">Keahlian</h2>
+
+    <div class="filter-buttons" role="tablist" aria-label="Filter keahlian">
+      <button class="filter-btn active" data-category="all">Semua</button>
+      <button class="filter-btn" data-category="web-dev">Web Dev</button>
+      <button class="filter-btn" data-category="data">Data</button>
+      <button class="filter-btn" data-category="devops">DevOps</button>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-card" data-category="web-dev">
+        <div class="skill-header">
+          <div class="skill-icon">🍵</div>
+          <span class="skill-name">Java / Spring</span>
+        </div>
+        <!-- <div class="skill-bar-wrap"><div class="skill-bar" style="width:90%"></div></div> -->
+      </div>
+
+      <div class="skill-card" data-category="data">
+        <div class="skill-header">
+          <div class="skill-icon">🐍</div>
+          <span class="skill-name">Python</span>
+        </div>
+        <!-- <div class="skill-bar-wrap"><div class="skill-bar" style="width:80%"></div></div> -->
+      </div>
+
+      <div class="skill-card" data-category="web-dev">
+        <div class="skill-header">
+          <div class="skill-icon">🌐</div>
+          <span class="skill-name">HTML &amp; CSS</span>
+        </div>
+        <!-- <div class="skill-bar-wrap"><div class="skill-bar" style="width:95%"></div></div> -->
+      </div>
+
+      <div class="skill-card" data-category="web-dev">
+        <div class="skill-header">
+          <div class="skill-icon">🟨</div>
+          <span class="skill-name">JavaScript / TypeScript</span>
+        </div>
+        <!-- <div class="skill-bar-wrap"><div class="skill-bar" style="width:85%"></div></div> -->
+      </div>
+
+      <div class="skill-card" data-category="devops">
+        <div class="skill-header">
+          <div class="skill-icon">🐳</div>
+          <span class="skill-name">Docker</span>
+        </div>
+        <!-- <div class="skill-bar-wrap"><div class="skill-bar" style="width:70%"></div></div> -->
+      </div>
+
+      <div class="skill-card" data-category="data">
+        <div class="skill-header">
+          <div class="skill-icon">🗄️</div>
+          <span class="skill-name">MySQL &amp; Redis</span>
+        </div>
+        <!-- <div class="skill-bar-wrap"><div class="skill-bar" style="width:65%"></div></div> -->
+      </div>
+
+    </div>
+  </section>
+  
+
+
+  <!-- KONTAK -->
+  <section id="kontak">
+    <p class="section-label">Hubungi Saya</p>
+    <h2 class="section-title">Kontak &amp; Media Sosial</h2>
+    
+    <!-- Form Hubungi Saya -->
+    <div class="contact-form-wrapper">
+      <form id="contactForm" class="contact-form">
+        <div class="form-group">
+          <input 
+            type="email" 
+            id="contactEmail" 
+            class="contact-input" 
+            placeholder="Email Anda..."
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input 
+            type="text" 
+            id="contactInput" 
+            class="contact-input" 
+            placeholder="Tulis pesan atau pertanyaan Anda di sini..."
+            required
+          />
+          <button type="submit" class="contact-submit" id="submitBtn">Kirim</button>
+        </div>
+        <div id="errorMessage" class="error-message"></div>
+      </form>
+    </div>
+
+    <div class="contact-grid">
+
+      <a href="mailto:hirobaikhtiyar@gmail.com" class="contact-card">
+        <div class="contact-icon">✉️</div>
+        <div class="contact-info">
+          <span class="contact-label">Gmail</span>
+          <span class="contact-value">hirobaikhtiyar</span>
+        </div>
+      </a>
+
+      <a href="https://www.linkedin.com/in/hiroba/" target="_blank" class="contact-card">
+        <div class="contact-icon">💼</div>
+        <div class="contact-info">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">in/hiroba</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/hikz" target="_blank" class="contact-card">
+        <div class="contact-icon">🐙</div>
+        <div class="contact-info">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/hikz</span>
+        </div>
+      </a>
+
+      <a href="https://instagram.com/hiroba___" target="_blank" class="contact-card">
+        <div class="contact-icon">📸</div>
+        <div class="contact-info">
+          <span class="contact-label">Instagram</span>
+          <span class="contact-value">@hiroba___</span>
+        </div>
+      </a>
+
+      <!--
+      <a href="https://wa.me/628123456789" target="_blank" class="contact-card">
+        <div class="contact-icon">💬</div>
+        <div class="contact-info">
+          <span class="contact-label">WhatsApp</span>
+          <span class="contact-value">+62 812-3456-789</span>
+        </div>
+      </a>
+
+      <a href="https://namaanda.dev" target="_blank" class="contact-card">
+        <div class="contact-icon">🌐</div>
+        <div class="contact-info">
+          <span class="contact-label">Website</span>
+          <span class="contact-value">namaanda.dev</span>
+        </div>
+      </a>
+
+      -->
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    Dibuat dengan ❤️ oleh <span>Hiroba</span> · © 2026
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
